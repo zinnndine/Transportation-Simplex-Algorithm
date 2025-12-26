@@ -15,6 +15,21 @@ This project implements the **Transportation Simplex Algorithm**, exploiting the
 
 ---
 
+## Initial Feasible Solution Methods
+
+The initial basic feasible solution is generated using one of the following classical methods:
+
+- **North-West Corner (NWC) Method**
+  - Simple and fast
+  - Does not consider transportation costs
+  - Used as a baseline feasible solution
+
+- **Least Cost Method**
+  - Greedy approach selecting the minimum cost cell
+  - Typically produces a better starting solution than NWC
+  
+The selected initial solution is then refined using the **Transportation Simplex Algorithm**.
+
 
 ## Implementation Details
 
@@ -27,4 +42,5 @@ This project implements the **Transportation Simplex Algorithm**, exploiting the
 ## How to Run (linux)
 
 ```bash
-python3 transportation_simplex.py
+cd scripts
+python3 script.py
