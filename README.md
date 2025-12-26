@@ -3,9 +3,6 @@
 
 # Transportation Simplex Algorithm
 
-
-# Transportation Simplex Algorithm
-
 Implementation of the Transportation Simplex Algorithm for solving transportation problems in linear programming.
 
 ---
